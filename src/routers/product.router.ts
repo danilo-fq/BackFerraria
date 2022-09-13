@@ -10,4 +10,9 @@ routers.post(
   productController.create,
 );
 
+routers.get(
+  '/',
+  productController.getAll,
+);
+
 export default routers;
