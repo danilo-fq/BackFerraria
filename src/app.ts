@@ -8,6 +8,7 @@ app.use(express.json());
 
 app.use('/products', routers.productRouters);
 app.use('/users', routers.userRouters);
+app.use('/orders', routers.orderRouters);
 
 app.use(errorMiddleware);
 
