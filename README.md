@@ -6,7 +6,7 @@ API de cadastro e leitura com temática de RPG. Para este projeto foram utilizad
 
 :alert: Para rodar o projeto desta forma, obrigatoriamente você deve ter o node instalado em seu computador.
 
-Existe um docker-compose para subir o container do banco de dados mysql. Será necessário que tenha o [Docker instalado] (https://www.hostinger.com.br/tutoriais/install-docker-ubuntu) na sua maquina.
+Existe um docker-compose para subir o container do banco de dados mysql. Será necessário que tenha o [Docker] (https://www.hostinger.com.br/tutoriais/install-docker-ubuntu) instalado na sua maquina.
 
 Após efetuada a instalação basta rodar o comando: ``` docker-compose up -d ```
 
@@ -16,7 +16,7 @@ Mas caso tenha MySql localmente basta rodar ```npm install ```
 
 https://localhost:3306/users  || 
 https://localhost:3306/products ||
-https://localhost:3306/orders ||
+https://localhost:3306/orders 
 
 Observação: Será necessário criar um cadastro de usuário para gerar um token e permitir o acesso e retorno das rotas products e orders
 
