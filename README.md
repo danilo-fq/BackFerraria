@@ -14,9 +14,9 @@ Mas caso tenha MySql localmente basta rodar ```npm install ```
 
 ### Rotas Disponíveis
 
-https://localhost:3306/users
-https://localhost:3306/products
-https://localhost:3306/orders
+https://localhost:3306/users  || 
+https://localhost:3306/products ||
+https://localhost:3306/orders ||
 
 Observação: Será necessário criar um cadastro de usuário para gerar um token e permitir o acesso e retorno das rotas products e orders
 
