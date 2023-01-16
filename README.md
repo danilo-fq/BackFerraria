@@ -1,13 +1,24 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+## 🔥 API simples de cadastro e listagem de produtos e usuários para uma ferraria ! 🔥
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+API de cadastro e leitura com temática de RPG. Para este projeto foram utilizados as tecnologias Express, JWT, NodeJs, Docker, Typescript e MySQL
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+### Pré-Requisitos
+
+:alert: Para rodar o projeto desta forma, obrigatoriamente você deve ter o node instalado em seu computador.
+
+Existe um docker-compose para subir o container do banco de dados mysql. Será necessário que tenha o [Docker instalado] (https://www.hostinger.com.br/tutoriais/install-docker-ubuntu) na sua maquina.
+
+Após efetuada a instalação basta rodar o comando: ``` docker-compose up -d ```
+
+Mas caso tenha MySql localmente basta rodar ```npm install ```
+
+### Rotas Disponíveis
+
+https://localhost:3306/users
+https://localhost:3306/products
+https://localhost:3306/orders
+
+Observação: Será necessário criar um cadastro de usuário para gerar um token e permitir o acesso e retorno das rotas products e orders
+
+
+docker-compose.yml e TrybeSmith.sql foram desenvolvidos pela @trybe
